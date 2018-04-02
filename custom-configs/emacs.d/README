@@ -1,0 +1,2 @@
+; Add this to ~/.emacs
+(load-file (convert-standard-filename "~/.custom-configs/emacs.d/init.el"))

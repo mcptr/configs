@@ -1,0 +1,9 @@
+# To load - put this in ~/.bashrc
+## if [ -f ~/.custom-configs/bash.d/load ]; then
+##     . ~/.custom-configs/bash.d/load
+## fi
+
+
+source ~/.custom-configs/bash.d/env
+source ~/.custom-configs/bash.d/aliases
+source ~/.custom-configs/bash.d/prompt
