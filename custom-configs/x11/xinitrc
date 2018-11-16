@@ -17,5 +17,7 @@ setxkbmap pl -option ctrl:nocaps
 xbattbar -c -a -t 1 top &
 conky &
 wicd-gtk -t &
+volumeicon &
 sh /home/bartek/bin/batt_notify.sh &
 exec startfluxbox
+#exec i3

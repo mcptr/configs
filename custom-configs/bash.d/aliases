@@ -1,3 +1,8 @@
 alias e="emacs -nw"
 alias ec="emacsclient -nq"
 
+alias venv="source ~/.venv/bin/activate"
+
+alias ll="ls -laF --group-directories-first"
+
+alias tmux='ssh-agent tmux'

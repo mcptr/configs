@@ -53,17 +53,20 @@
   (c-set-style "mycodingstyle"))
 
 
-
 ;; add hook
 (add-hook 'c-mode-common-hook 'my-c-mode-common-hook)
 (add-hook 'c-mode-common-hook 'my-c++-mode-hook)
 
+
 (add-hook 'c-mode-hook 
    '(lambda () 
       (gtags-mode t)
-))
+      (add-hook 'before-save-hook #'whitespace-cleanup)
+      ))
 
 (add-hook 'c++-mode-hook 
    '(lambda () 
       (gtags-mode t)
-))
+      (add-hook 'before-save-hook #'whitespace-cleanup)
+      ))
+		  

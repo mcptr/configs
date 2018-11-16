@@ -1,7 +1,7 @@
 ;; OVERRIDE custom-set-variables added by Custom.
 (custom-set-variables
  '(make-backup-files nil)
- '(confirm-kill-emacs 'y-or-n-p)
+ ;;'(confirm-kill-emacs 'y-or-n-p)
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil)
  '(menu-bar-mode t)
@@ -15,13 +15,13 @@
  '(show-paren-mode t)
  '(show-parent-style (quote mixed))
  ;; '(size-indication-mode t)
- '(speedbar-show-unknown-files t)
- '(speedbar-use-images nil)
- '(sr-speedbar-auto-refresh t)
- '(sr-speedbar-default-width 20)
- '(sr-speedbar-max-width 50)
- '(sr-speedbar-skip-other-window-p nil)
- '(sr-speedbar-width-x 50)
+ ;; '(speedbar-show-unknown-files t)
+ ;; '(speedbar-use-images nil)
+ ;; '(sr-speedbar-auto-refresh t)
+ ;; '(sr-speedbar-default-width 20)
+ ;; '(sr-speedbar-max-width 50)
+ ;; '(sr-speedbar-skip-other-window-p nil)
+ ;; '(sr-speedbar-width-x 50)
  '(tab-always-indent t)
  '(transient-mark-mode t)
  '(which-function-mode t)
@@ -29,7 +29,7 @@
  )
 
 (defun x11-setup ()
-  (custom-set-variables '(confirm-kill-emacs 'y-or-n-p))
+  ;;(custom-set-variables '(confirm-kill-emacs 'y-or-n-p))
   (custom-set-faces
    '(default ((t ( :inherit nil
 			    :stipple nil

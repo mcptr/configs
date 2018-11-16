@@ -1,3 +1,4 @@
+(require 'sr-speedbar)
 (setq speedbar-mode-hook
       '(lambda ()
 	 (interactive)
